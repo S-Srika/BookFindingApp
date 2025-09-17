@@ -30,11 +30,11 @@ const LatestBooks = () => {
   return (
     <section className="bg-[#7c617e] ">
       <div className="max-w-3xl mx-auto ">
-        <h2 className="font-nunito text-[28px] text-white  p-4">
+        <h2 className="font-nunito text-[20px] md:text-[28px] text-white  p-4">
           Latest Pics For You...
         </h2>
       </div>
-      <div className="grid grid-cols-4 gap-3 p-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-3 p-3">
         {books.map((book, index) => (
           <BookCard key={index} book={book} />
         ))}

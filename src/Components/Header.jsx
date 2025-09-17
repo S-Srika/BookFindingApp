@@ -8,7 +8,7 @@ const Header = () => {
         <img
           src="https://ik.imagekit.io/hb9mevpzq/BOOK%20FINDER/pngtree-an-open-book-logo-png-image_15367612.png?updatedAt=1757687990133"
           alt="Book.img"
-          className="h-auto w-20"
+          className="h-12 md:h-20 w-auto"
         />
         
           <ul className="hidden md:flex items-center space-x-5 text-[#BD082B] text-[15px] font-bold font-nunito p-5">

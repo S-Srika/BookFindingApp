@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="2xl:container mx-auto relative min-h-screen bg-gradient-to-br from-[#dfd9e2] via-[#c3acce] to-[#7c617e]  ">
+      <div className="2xl:container mx-auto relative min-h-screen bg-gradient-to-br from-[#dfd9e2] via-[#c3acce] to-[#7c617e]   ">
         <div className=" absolute inset-0 bg-gradient-to-t from-white/10 via-transparent to-white/9 pointer-events-none "></div>
         <Header />
         <div className="relative z-10 w-[90%] mx-auto ">
